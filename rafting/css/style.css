@@ -16,6 +16,11 @@ display: grid;
 align-items: center;
 }
 
+h1,h2,h3,h4{
+    font-family: 'Montserrat';font-size: 22px;
+}
+
+
 
 .page{
     max-width: 960px;
@@ -25,7 +30,9 @@ align-items: center;
 a{
     color: rgb(red, green, blue);
 }
-svg{
-    width: 50px;
-    height: 50px;
-}
+
+
+.adventure{
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+     
+ }

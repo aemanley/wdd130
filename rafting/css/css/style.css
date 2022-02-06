@@ -1,0 +1,54 @@
+*{ margin: 0;
+padding: 0; }
+
+body{ background-color: rgb(252,252,246);
+font-size: 14px;
+}
+
+h1,h2,h3,h4,p {
+    color: rgb(0,0,0)
+    ;
+}
+
+header,footer {
+    background-color: rgb(	252	243	105);
+display: grid;
+align-items: center;
+}
+
+h1,h2,h3,h4{
+    font-family: 'Cabin', sans-serif;font-size: 22px;
+    color: rgb(43,19,109)	
+}
+
+p{font-family: 'Montserrat', sans-serif;font-size: 20px; 
+
+}
+
+header,ul,footer{
+    font-family: "Superior Title", Light ;font-size: 20px; 
+}
+.page{
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+a{
+    color: rgb(red, green, blue);
+}
+
+.socialicons{
+    margin-left: 50rem;
+}
+
+.copy{
+    margin-top: 1rem;
+}
+nav ul {
+    list-style: none;
+}
+
+.riverpic{
+    margin: 10rem;
+    padding: 50rem;
+}

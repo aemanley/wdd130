@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* I add this */
+}
+
+body {
+  background-color: rgb(252, 252, 246);
+  font-size: 14px;
+}
+
+
+header,
+footer {
+  background-color: rgb(252, 243, 105);
+  display: grid;
+  align-items: center;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Cabin", sans-serif;
+  font-size: 22px;
+  color: rgb(43, 19, 109);
+}
+
+p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+}
+
+header,
+ul,
+footer {
+  font-family: "Superior Title", Light;
+  font-size: 20px;
+}
+.page {
+  max-width: 960px;
+  margin: 0 auto;
+}
+header{
+    grid-template-columns: 150px 1fr 2fr;
+}
+a {
+  color: rgb(43, 19, 109);
+}
+
+.socialicons {
+  margin-left: 50rem;
+}
+
+.copy {
+  margin-top: 1rem;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+}
+nav ul li {
+    flex:1 1 auto;
+
+}
+nav ul li a{
+    display: block;
+    text-decoration: none;
+    padding: 1.2rem;
+}
+.riverpic {
+  margin: 10rem;
+  padding: 50rem;
+}
+
+
+

@@ -1,51 +1,148 @@
-*{ margin: 0;
-padding: 0; }
-
-body{ background-color: rgb(252,252,246);
-font-size: 14px;
-}
-
-
-
-header,footer {
-    background-color: rgb(252,243,105);
-display: grid;
-align-items: center;
-}
-
-h1,h2,h3,h4{
-    font-family: 'Cabin', sans-serif;font-size: 22px;
-    color: rgb(43,19,109)	
-}
-
-p{font-family: 'Montserrat', sans-serif;font-size: 20px; 
-
-}
-
-header,ul,footer{
-    font-family: "Superior Title", Light ;font-size: 20px; 
-}
-.page{
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box; /* I add this */
+   
+  }
+  
+  body {
+    background-color: rgb(252, 252, 246);
+    font-size: 14px;
+  }
+  
+  header,
+  footer {
+    background-color: rgb(252, 243, 105);
+    display: grid;
+    align-items: center;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4 {
+    font-family: "Cabin", sans-serif;
+    font-size: 22px;
+    color: rgb(43, 19, 109);
+  }
+  
+  p {
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+  }
+  
+  header,
+  ul,
+  footer {
+    font-family: "Superior Title", Light;
+    font-size: 20px;
+  }
+  .page {
     max-width: 960px;
     margin: 0 auto;
-}
-
-a{
-    color: rgb(43,19,109);
-}
-
-.socialicons{
+  }
+  header {
+    grid-template-columns: 150px 1fr 2fr;
+  }
+  a {
+    color: rgb(43, 19, 109);
+  }
+  
+  .socialicons {
     margin-left: 50rem;
-}
-
-.copy{
+  }
+  
+  .copy {
     margin-top: 1rem;
-}
-nav ul {
+  }
+  
+  /*here */
+  nav ul {
     list-style: none;
-}
-
-.riverpic{
-    margin: 10rem;
-    padding: 50rem;
-}
+    display: flex;
+  }
+  nav ul li {
+    flex: 1 1 auto;
+  }
+  nav ul li a {
+    display: block;
+    text-decoration: none;
+    padding: 1.2rem;
+  }
+  
+  .logo {
+    margin-left: 20px;
+  }
+  
+  .banner-contents {
+    position: relative;
+    width: 100%;
+  }
+  .hero {
+    width: 100%;
+  }
+  
+  .banner-content2 {
+    position: absolute;
+    top: 300px;
+    margin-left: 100px;
+    border: 3px solid #000;
+  }
+  
+  .area1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .adventure,
+  .area1h1 {
+    grid-column: 1;
+    padding-top: 20px;
+  }
+  
+  .area1picture {
+    grid-column: 2;
+  }
+  
+  .area2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  
+  h2 {
+    grid-column: 2;
+    padding-top: 20px;
+    grid-row: 1;
+  }
+  .content2 {
+    grid-column: 2;
+    grid-row: 1;
+    padding-top: 50px;
+  }
+  .area2picture {
+    grid-column: 1;
+    grid-row: 1;
+    padding-top: 20px;
+  }
+  
+  .area3 {
+    text-align: center;
+  }
+  
+  
+  .socialicons{
+    display: flex;
+  flex: 2 2 auto ;
+  }
+  
+  
+  .stats {
+      position: absolute;
+      top: 150px;
+  left: 900px;
+      background: rgb(252, 252, 246);
+      border: 1px solid #000;
+      padding: 1rem;
+      box-shadow: 0 0 30px #333;
+      opacity: 0.9;
+  }
+  

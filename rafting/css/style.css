@@ -153,4 +153,28 @@
     padding: 1rem;
     font-size: large;
   }
+
+
+
+
+
+  .pics1strow{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-top: 40px;
+    
+   
+  }
   
+  .pics2ndstrow{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    padding-top: 10px;
+  }
+
+ .wwa{
+   text-align: center;
+   padding-top: 70px;
+   padding-bottom: 70px;
+ }

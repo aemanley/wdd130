@@ -37,31 +37,40 @@
         </header>
 
         <main>
-            <section class="needhelp">
-                <h2> Need some help? </h2>
-             <h3> Let´s talk or chat</h3>
-                <img src="images/phoneicon.png" alt="phoneicon"><p> CELLPHONE NUMBER</p>
-                <img src="images/whatsicon.png" alt="whatsappicon"><P>WHATSAPP LINK</P>
-                <img src="images/mailicon.png" alt="mailicon"><p>MAIL ADRESS</p>
+            <section class="all">
+                <section class="needhelp">
+                    <h2 class="help"> Need some <br>extra help? </h2>
+                    <h3 class="talk"> Let´s talk or chat</h3>
+
+                    <div class="phone"><img src="images/phoneicon.png" alt="phoneicon">
+                        <p> +0016505574622</p>
+                    </div>
+                    <div class="whats"><img src="images/whatsicon.png" alt="whatsappicon">
+                        <p>1-888-452-1505</p>
+                    </div>
+                    <img src="images/mailicon.png" alt="mailicon">
+                    <p>OarRafting@gmail.com</p>
+                </section>
+
+                <section class="booking">
+                    <h2>Want to book?</h2>
+                    <form action="/action_page.php">
+                        <label for="fname">First name:</label><br>
+                        <input type="text" id="fname" name="fname"><br>
+                        <label for="lname">Email Adress:</label><br>
+                        <input type="text" id="lname" name="lname"><br>
+                        <label for="lname">Insert trip information(data,time,quantity):</label><br>
+                        <input type="text" id="lname" name="lname"><br><br>
+                        <input type="submit" value="Send">
+                        <p>You will receive and email confirmation when your booking is sucessful.</p>
+                    </form>
+                </section>
             </section>
 
-            <section>
-                <h2>Want to book?</h2>
-                <form action="/action_page.php">
-                    <label for="fname">First name:</label><br>
-                    <input type="text" id="fname" name="fname" value="John"><br>
-                    <label for="lname">Email Adress:</label><br>
-                    <input type="text" id="lname" name="lname" value="Doe"><br>
-                    <label for="lname">Insert trip information(data,time,quantity):</label><br>
-                    <input type="text" id="lname" name="lname" value="Doe"><br><br>
-                    <input type="submit" value="Send">
-                    <p>You will receive and email confirmation when your booking is sucessful</p>
-                </form>
-            </section>
-
-            <section>
+            <section class="thankyou">
                 <p>Thank you for reaching out!</p>
             </section>
+
         </main>
 
 

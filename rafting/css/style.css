@@ -205,6 +205,9 @@ form {
   border-style: solid;
   margin: 40px;
   padding: 30px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+
 }
 
 .thankyou {

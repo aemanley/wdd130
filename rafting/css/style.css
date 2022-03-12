@@ -35,6 +35,7 @@ ul,
 footer {
   font-family: "Superior Title", Light;
   font-size: 20px;
+  padding: 15px;
 }
 .page {
   max-width: 960px;
@@ -52,12 +53,11 @@ a {
   flex: 1 1 auto;
   justify-content: end;
   grid-column: 2;
-  padding-right: 10px;
-  padding-top: 5px;
+  gap: 7px;
 }
 
 .copy {
-  margin-top: 1rem;
+
   grid-column: 1;
   padding-left: 10px;
 }
@@ -141,11 +141,7 @@ nav ul li a {
 .paragraph3{
   padding-top: 30px;
 }
-.socialicons {
-  display: flex;
-  flex: 2 2 auto;
-  gap: 5px;
-}
+
 
 .stats {
   position: absolute;
@@ -167,8 +163,9 @@ button {
 .pics1strow {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  padding-top: 40px;
+  margin-top: 40px;
   grid-gap: 10px;
+ 
 }
 
 .pics2ndstrow {
@@ -220,3 +217,4 @@ form {
   padding-top: 20px;
   text-align:center;
 }
+  

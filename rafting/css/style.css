@@ -57,7 +57,6 @@ a {
 }
 
 .copy {
-
   grid-column: 1;
   padding-left: 10px;
 }
@@ -124,12 +123,10 @@ nav ul li a {
 .content2 {
   grid-column: 2;
   grid-row: 2;
- 
 }
 .area2picture {
   grid-column: 1;
   grid-row: 2;
-  
 }
 
 .area3 {
@@ -138,10 +135,9 @@ nav ul li a {
   padding-top: 60px;
 }
 
-.paragraph3{
+.paragraph3 {
   padding-top: 30px;
 }
-
 
 .stats {
   position: absolute;
@@ -165,14 +161,10 @@ button {
   grid-template-columns: 1fr 1fr 1fr;
   margin-top: 40px;
   grid-gap: 10px;
- 
 }
 
-.pics2ndstrow {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  padding-top: 10px;
-  grid-gap: 10px;
+.aboutusimages {
+  width: 100%;
 }
 
 .wwa {
@@ -204,7 +196,6 @@ form {
   padding: 30px;
   font-family: "Montserrat", sans-serif;
   font-size: 20px;
-
 }
 
 .thankyou {
@@ -213,8 +204,7 @@ form {
   padding-bottom: 60px;
 }
 
-.infowwa{ 
+.infowwa {
   padding-top: 20px;
-  text-align:center;
+  text-align: center;
 }
-  

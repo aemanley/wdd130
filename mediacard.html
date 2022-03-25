@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>tegucigalpa Honduras Temple Media Card </title>
 
     <style>
         body {
@@ -20,6 +20,7 @@
         }
 
         .card {
+            position: relative;
             width: 400px;
             background-color: rgb(234, 241, 241);
             border-radius: 30px;
@@ -40,18 +41,22 @@
             padding-bottom: 5px;
         }
 
-        #button {
-
+        a {
             position: absolute;
-            top: 600px;
-            right: 580px;
+            bottom: 27px;
+            right: 27px;
             width: 160px;
             border-radius: 7px;
-            border-color: black;
+            border: 2px solid gray;
+            background-color: #f0e5e5;
+            text-align: center;
+            text-decoration: none;
+            color: black;
+            padding: 5px;
 
         }
 
-        #button:hover {
+        a:hover {
             background: black;
             color: white;
         }
@@ -69,9 +74,10 @@
         }
 
         .heart {
+
             position: absolute;
-            bottom: 550px;
-            right: 580px;
+            top: 27px;
+            right: 27px;
         }
 
         .heart:hover {
@@ -82,25 +88,28 @@
 
 <body>
 
+
+
+    <div class="card">
+
+        <img class="temple" src="images/tegucigalpahondurastemple.jpg" alt="tegucigalpahondurastemple" width="400">
+        <section class="title">
+            <h1>Tegucigalpa Honduras Temple</h1>
+        </section>
+        <section class="p1">
+            <p> The Tegucigalpa Honduras Temple was dedicated by President Dieter F. Uchtdorf on March 17, <br>
+                becoming the sixth in Central America<br>
+                and the 141st of the Church. It was the first temple on Honduras.<br>
+        </section>
+
+        <p class="p2"> SQ FT: 28,254</p>
+        <a
+            href="https://www.churchofjesuschrist.org/temples/details/tegucigalpa-honduras-temple?lang=eng">details...</a>
+        <img class="heart" src="images/heartpng.png" alt="hearticon" width="50">
+
+    </div>
+
+
 </body>
-
-<div class="card">
-
-    <img class="temple" src="images/tegucigalpahondurastemple.jpg" alt="tegucigalpahondurastemple" width="400px">
-    <section class="title">
-        <h1>Tegucigalpa Honduras Temple</h1>
-    </section>
-    <section class="p1">
-        <p> The Tegucigalpa Honduras Temple was dedicated by President Dieter F. Uchtdorf on March 17, <br>
-            becoming the sixth in Central America<br>
-            and the 141st of the Church. It was the first temple on Honduras.<br>
-    </section>
-
-    <p class="p2"> SQ FT: 28,254</p>
-    <button role="button" id="button">details...</button>
-
-    <img class="heart" src="images/heartpng.png" alt="hearticon" width="50px">
-
-</div>
 
 </html>

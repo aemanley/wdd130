@@ -1,0 +1,428 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box; /* I add this */
+}
+.page {
+  max-width: 1500px;
+  margin: 0 auto;
+}
+
+header,
+footer {
+  background-color: #f2e8cf;
+  display: grid;
+  align-items: center;
+}
+header,
+ul,
+footer {
+  font-family: "Alkaline Regular", Alkaline Bold, sans-serif;
+  font-size: 30px;
+  padding: 15px;
+}
+
+header {
+  grid-template-columns: 150px 1fr 2fr;
+}
+
+.sitename {
+  padding: 30px;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+}
+nav ul li {
+  flex: 1 1 auto;
+}
+nav ul li a {
+  display: block;
+  text-decoration: none;
+  padding: 1.2rem;
+  color: #386641;
+  font-size: 35px;
+}
+
+.logo {
+  margin-left: 20px;
+  margin-right: 50px;
+}
+
+a {
+  color: rgb(43, 19, 109);
+}
+
+section.intro {
+  background-color: #6a994e;
+  margin-top: 50px;
+  height: 300px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  position: relative;
+}
+h2.sec1h {
+  grid-column: 1;
+  padding-top: 30px;
+  padding-left: 50px;
+  grid-row: 1;
+  font-size: 50px;
+}
+p.sec1 {
+  grid-column: 1;
+  padding-left: 50px;
+  grid-row: 1;
+  padding-top: 90px;
+  font-size: 25px;
+}
+
+picture.sec1 {
+  grid-column: 2;
+  display: flex;
+  position: relative;
+  position: absolute;
+  right: 0px;
+}
+picture.sec2 {
+  grid-column: 2;
+  display: flex;
+  position: relative;
+  position: absolute;
+  right: 450px;
+}
+
+h2,
+h3,
+h4 {
+  font-family: "Alkaline Regular", "Alkaline Bold", sans-serif;
+}
+p {
+  font-family: "Bilo Thin", sans-serif;
+}
+
+section.benefits {
+  margin-top: 50px;
+  width: 100%;
+  height: 600px;
+}
+
+h2.benefittitle {
+  font-size: 80px;
+  text-align: center;
+  padding-top: 20px;
+  color: #bc4749;
+}
+
+p.benefitp1 {
+  font-size: 25px;
+  text-align: center;
+}
+
+h3.benefittitle {
+  font-size: 40px;
+  text-align: center;
+  padding-top: 20px;
+  color: #bc4749;
+  margin-bottom: 50px;
+}
+p.benefitsexamples {
+  width: 320px;
+  padding: 10px;
+
+  margin: 0;
+  font-size: 30px;
+  color: black;
+  background-color: #f2e8cf;
+  text-align: center;
+}
+p.benefitsexamples1 {
+  width: 320px;
+  padding: 10px;
+
+  margin: 0;
+  font-size: 30px;
+  color: black;
+  background-color: #a7c957;
+  text-align: center;
+}
+
+.benefitssquares {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  padding-left: 50px;
+}
+section.contacttagline {
+  background-color: #6a994e;
+  margin-top: 30px;
+  padding: 7px;
+}
+.contactus {
+  text-align: center;
+  padding-top: 20px;
+}
+section.phone {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.phoneicon {
+  margin-left: 620px;
+  padding-top: 20px;
+}
+.number {
+  font-size: 30px;
+  margin-left: -80px;
+  padding-top: 20px;
+}
+.socialicons {
+  display: flex;
+  flex: 1 1 auto;
+  justify-content: end;
+  grid-column: 2;
+  gap: 7px;
+}
+footer {
+  margin-top: 50px;
+}
+
+/* Subpage*/
+
+section.reintro {
+  background-color: #6a994e;
+  margin-top: 50px;
+  height: 300px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  position: relative;
+}
+h2.resec1h {
+  grid-column: 2;
+  padding: 30px;
+  grid-row: 1;
+  font-size: 70px;
+  text-align: center;
+  color: #f2e8cf;
+  padding-top: 70px;
+}
+picture.resecp1 {
+  grid-column: 1;
+}
+picture.resecp2 {
+  grid-column: 3;
+  display: flex;
+  position: relative;
+  position: absolute;
+  right: 0px;
+}
+section.titleaccepted {
+  color: #bc4749;
+  margin-top: 80px;
+}
+h2.acceptedh2 {
+  font-size: 40px;
+  text-align: center;
+  font-family: "Bilo Thin", sans-serif;
+}
+section.acceptedonbin {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+}
+
+section.bottle {
+  background-color: #a7c957;
+  grid-column: 1;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+h2.hacceptedbin {
+  color: #bc4749;
+  grid-column: 2;
+  margin: 20px;
+  grid-row: 1;
+}
+p.paccepttedbin {
+  grid-column: 2;
+  grid-row: 1;
+  margin-top: 80px;
+  margin-left: 20px;
+}
+
+section.cardboard {
+  background-color: #6a994e;
+  grid-column: 2;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+section.glass {
+  background-color: #a7c957;
+  grid-column: 3;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+section.carton {
+  background-color: #6a994e;
+  grid-column: 1;
+  grid-row: 2;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+section.cans {
+  background-color: #a7c957;
+  grid-column: 2;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+section.paper {
+  background-color: #6a994e;
+  grid-column: 3;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+section.plasticwrap {
+  background-color: #6a994e;
+  grid-column: 1;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+section.polys {
+  background-color: #a7c957;
+  grid-column: 2;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+section.bag {
+  background-color: #6a994e;
+  grid-column: 3;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+section.cupswax {
+  background-color: #a7c957;
+  grid-column: 1;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+section.medicalwaste {
+  background-color: #6a994e;
+  grid-column: 2;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+section.garagewaste {
+  background-color: #a7c957;
+  grid-column: 3;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+/* Sub page */
+
+section.teintro {
+  background-color: #6a994e;
+  margin-top: 50px;
+}
+h2.tesec1h {
+  text-align: center;
+  font-size: 60px;
+  padding: 40px;
+  color: #f2e8cf;
+}
+
+section.rowena {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 50px;
+}
+h3.rowenah {
+  grid-column: 1;
+  grid-row: 1;
+  margin-top: 50px;
+  margin-left: 50px;
+  font-size: 40px;
+}
+p.rowenap {
+  grid-column: 1;
+  grid-row: 1;
+  margin-top: 100px;
+  margin-left: 50px;
+  font-size: 30px;
+  text-align: justify;
+}
+
+picture.rowenapic {
+  margin-top: 50px;
+  padding-bottom: 30px;
+  margin-left: 40px;
+  grid-column: 2;
+  grid-row: 1;
+}
+
+section.dawn {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 50px;
+  border-bottom: 4px solid #a7c957;
+}
+
+h3.dawnh {
+  grid-column: 2;
+  grid-row: 1;
+  margin-top: 50px;
+  margin-right: 50px;
+  font-size: 40px;
+}
+p.dawnp {
+  grid-column: 2;
+  grid-row: 1;
+  margin-top: 100px;
+  margin-right: 50px;
+  font-size: 30px;
+  text-align: justify;
+}
+
+picture.dawnpic {
+  margin-top: 50px;
+  padding-bottom: 30px;
+  margin-left: 350px;
+  grid-column: 1;
+  grid-row: 1;
+}
+
+section.reintro {
+  background-color: #6a994e;
+  margin-top: 50px;
+  height: 300px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  position: relative;
+}
+
+h2.comment {
+  font-size: 40px;
+  text-align: justify;
+  padding-top: 50px;
+  padding-left: 50px;
+  padding-bottom: 20px;
+  grid-column: 1;
+  text-align: center;
+}
+
+.form {
+  background-color: #bc4749;
+  display: inline-block;
+  text-align: center;
+  width: 20%;
+  margin-bottom: 30px;
+  padding: 30px;
+  grid-column: 3;
+  margin-left: 600px;
+  font-size: 25px;
+  color: #f2e8cf;
+}
+
+#tname {
+  padding: 40px;
+}
